@@ -1,0 +1,23 @@
+body{
+    background-color: #212121; 
+    color: #fff
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.btn{
+    align-items: center;
+    justify-content: center;
+    margin: 40px auto 0px auto;
+    font-size: larger;
+}
+
+h1{
+    display: flex;
+    margin: auto;
+    margin-top: 10%;
+}
