@@ -78,3 +78,15 @@ or
 Click [Here](https://kuldeep-rathod.github.io/Frontend-Mini-Projects/keyboard/) to visit
 
 <hr>
+
+## 6. Search Engine
+
+To run tests, run the following link in browser
+
+```bash
+https://kuldeep-rathod.github.io/Frontend-Mini-Projects/search_engine/
+```
+or
+Click [Here](https://kuldeep-rathod.github.io/Frontend-Mini-Projects/search_engine/) to visit
+
+<hr>
