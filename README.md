@@ -1,16 +1,16 @@
 # Front-end-Projects
 
 
-## 1. Color Scheme Switcher
+## 1. To Do List
 
 
 To run tests, run the following link in browser
 
 ```bash
-https://kuldeep-rathod.github.io/Frontend-Mini-Projects/ColorSchemeSwitcher/
+https://kuldeep-rathod.github.io/Frontend-Mini-Projects/toDoList/
 ```
 or
-### Click [Here](https://kuldeep-rathod.github.io/Frontend-Mini-Projects/ColorSchemeSwitcher/) to visit
+### Click [Here](https://kuldeep-rathod.github.io/Frontend-Mini-Projects/toDoList/) to visit
 
 <hr>
 
@@ -88,5 +88,18 @@ https://kuldeep-rathod.github.io/Frontend-Mini-Projects/search_engine/
 ```
 or
 Click [Here](https://kuldeep-rathod.github.io/Frontend-Mini-Projects/search_engine/) to visit
+
+<hr>
+
+## 7. Color Scheme Switcher
+
+
+To run tests, run the following link in browser
+
+```bash
+https://kuldeep-rathod.github.io/Frontend-Mini-Projects/ColorSchemeSwitcher/
+```
+or
+### Click [Here](https://kuldeep-rathod.github.io/Frontend-Mini-Projects/ColorSchemeSwitcher/) to visit
 
 <hr>
