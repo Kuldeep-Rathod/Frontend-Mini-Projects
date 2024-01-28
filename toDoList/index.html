@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Search Engine</title>
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-700">
+    <div class="container bg-slate-200 max-w-xl mx-auto mt-16 rounded-lg p-4">
+        <form class="form task-input p-3 h-14 border border-black flex bg-white space-x-4 rounded-lg">
+            <img src="./assets/clipboard-notes.svg" alt="">
+            <input class="w-full text-lg outline-none" type="text" placeholder="Add a new task">
+            <button class="submit bg-blue-500 px-3 rounded-md">Add</button>
+        </form>
+        
+        <div class="control flex flex-row justify-between py-4 border-b border-[#ccc]">
+            <div class="filter space-x-10 flex items-center">
+                <span id="all" class="cursor-pointer active">All</span>
+                <span id="pending" class="cursor-pointer ">Pending</span>
+                <span id="completed" class="cursor-pointer ">Completed</span>
+            </div>
+            <button class="clearAll bg-red-500  text-white px-3 py-1.5 rounded-md">Clear All</button>
+        </div>
+
+        <ul class="taskBox m-4">
+            <!-- <li class="task flex justify-between border-b border-[#ccc] mb-5 pb-4">
+                <label for="1" class="flex space-x-3 items-center">
+                    <input type="checkbox" name="" id="1" class="mt-1"> 
+                    <p>Renew Gym Membership 1</p>
+                </label>
+                <div class="setting cursor-pointer relative">
+                    <i class="uil uil-ellipsis-h"></i>
+                    <ul class="settingMenu bg-white absolute space-y-1 scale-0 hover:scale-100 duration-700 right-3 top-1">
+                        <li class="hover:bg-blue-200 px-3 py-1 flex"><i class="uil uil-pen pr-2"></i>Edit</li>
+                        <li class="hover:bg-red-200 px-3 py-1 flex"><i class="uil uil-trash pr-2"></i>Delete</li>
+                    </ul>
+                </div>
+            </li> -->
+        </ul>
+
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>

@@ -1,0 +1,26 @@
+@tailwind base;
+
+.setting .settingMenu.show{
+    transform: scale(1)
+}
+
+.task label p.checked{
+    text-decoration: line-through;
+}
+
+.filter .active{
+    color: blue;
+}
+
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    /* Hide scrollbar for Chrome, Safari and Opera */
+    .no-scrollbar::-webkit-scrollbar {
+        display: none;
+    }
+
+}
+
+
