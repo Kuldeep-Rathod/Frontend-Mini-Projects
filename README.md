@@ -28,6 +28,19 @@ or
 <hr>
 
 
+## 4. Alarm App
+
+To run tests, run the following link in browser
+
+```bash
+https://kuldeep-rathod.github.io/Frontend-Mini-Projects/AlarmApp/
+```
+or
+Click [Here](https://kuldeep-rathod.github.io/Frontend-Mini-Projects/AlarmApp/) to visit
+
+<hr>
+
+
 ## 3. Digital Clock
 
 To run tests, run the following link in browser
@@ -37,19 +50,6 @@ https://kuldeep-rathod.github.io/Frontend-Mini-Projects/DigitalClock/
 ```
 or
 Click [Here](https://kuldeep-rathod.github.io/Frontend-Mini-Projects/DigitalClock/) to visit
-
-<hr>
-
-
-## 4. Guess The Number
-
-To run tests, run the following link in browser
-
-```bash
-https://kuldeep-rathod.github.io/Frontend-Mini-Projects/GuessTheNumber/
-```
-or
-Click [Here](https://kuldeep-rathod.github.io/Frontend-Mini-Projects/GuessTheNumber/) to visit
 
 <hr>
 
