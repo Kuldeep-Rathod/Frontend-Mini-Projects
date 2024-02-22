@@ -15,7 +15,21 @@ or
 <hr>
 
 
-## 2. BMI-Generator
+## 2. Weather App
+
+
+To run tests, run the following link in browser
+
+```bash
+https://kuldeep-rathod.github.io/Frontend-Mini-Projects/WeatherApp/
+```
+or
+### Click [Here](https://kuldeep-rathod.github.io/Frontend-Mini-Projects/WeatherApp/) to visit
+
+<hr>
+
+
+## 3. BMI-Generator
 
 To run tests, run the following link in browser
 
@@ -41,7 +55,7 @@ Click [Here](https://kuldeep-rathod.github.io/Frontend-Mini-Projects/AlarmApp/) 
 <hr>
 
 
-## 3. Digital Clock
+## 5. Digital Clock
 
 To run tests, run the following link in browser
 
@@ -54,7 +68,7 @@ Click [Here](https://kuldeep-rathod.github.io/Frontend-Mini-Projects/DigitalCloc
 <hr>
 
 
-## 5. Unlimited Colors
+## 6. Unlimited Colors
 
 To run tests, run the following link in browser
 
@@ -67,7 +81,7 @@ Click [Here](https://kuldeep-rathod.github.io/Frontend-Mini-Projects/unlimitedCo
 <hr>
 
 
-## 6. Keyboard Keycode
+## 7. Keyboard Keycode
 
 To run tests, run the following link in browser
 
@@ -79,7 +93,7 @@ Click [Here](https://kuldeep-rathod.github.io/Frontend-Mini-Projects/keyboard/) 
 
 <hr>
 
-## 6. Search Engine
+## 8. Search Engine
 
 To run tests, run the following link in browser
 
@@ -91,7 +105,7 @@ Click [Here](https://kuldeep-rathod.github.io/Frontend-Mini-Projects/search_engi
 
 <hr>
 
-## 7. Color Scheme Switcher
+## 9. Color Scheme Switcher
 
 
 To run tests, run the following link in browser
