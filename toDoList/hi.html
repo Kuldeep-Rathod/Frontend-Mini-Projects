@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Todo List</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        margin: 0;
+        padding: 0;
+    }
+
+    h1 {
+        text-align: center;
+        margin-top: 20px;
+        color: #333;
+    }
+
+    #todo-container {
+        max-width: 400px;
+        margin: 20px auto;
+        background-color: #fff;
+        border-radius: 5px;
+        padding: 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    input[type="text"] {
+        width: calc(100% - 60px);
+        padding: 10px;
+        margin-right: 10px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        font-size: 16px;
+    }
+
+    button {
+        padding: 10px 20px;
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+    }
+
+    button:hover {
+        background-color: #0056b3;
+    }
+
+    .todo-item {
+        margin-bottom: 10px;
+        display: flex;
+        align-items: center;
+    }
+
+    .completed {
+        text-decoration: line-through;
+    }
+
+    .todo-text {
+        flex-grow: 1;
+        margin-left: 10px;
+    }
+
+    .delete-button {
+        background-color: #dc3545;
+    }
+
+    .delete-button:hover {
+        background-color: #bd2130;
+    }
+</style>
+</head>
+<body>
+    <h1>Todo List</h1>
+    <div id="todo-container">
+        <input type="text" id="todo-input" placeholder="Add new todo">
+        <button onclick="addTodo()">Add</button>
+        <div id="todo-list">
+            <!-- Todo items will be added here -->
+        </div>
+    </div>
+
+    <script>
+        // Function to add a new todo
+        function addTodo() {
+            var input = document.getElementById("todo-input");
+            var todoText = input.value.trim();
+
+            if (todoText !== "") {
+                var todoList = document.getElementById("todo-list");
+
+                var todoItem = document.createElement("div");
+                todoItem.className = "todo-item";
+                
+                var checkbox = document.createElement("input");
+                checkbox.type = "checkbox";
+                checkbox.addEventListener("change", function() {
+                    if (this.checked) {
+                        todoTextElement.classList.add("completed");
+                    } else {
+                        todoTextElement.classList.remove("completed");
+                    }
+                });
+
+                var todoTextElement = document.createElement("span");
+                todoTextElement.textContent = todoText;
+                todoTextElement.className = "todo-text";
+
+                var deleteButton = document.createElement("button");
+                deleteButton.textContent = "Delete";
+                deleteButton.className = "delete-button";
+                deleteButton.addEventListener("click", function() {
+                    todoList.removeChild(todoItem);
+                });
+
+                todoItem.appendChild(checkbox);
+                todoItem.appendChild(todoTextElement);
+                todoItem.appendChild(deleteButton);
+                
+                todoList.appendChild(todoItem);
+
+                // Clear the input field
+                input.value = "";
+            }
+        }
+    </script>
+</body>
+</html>
